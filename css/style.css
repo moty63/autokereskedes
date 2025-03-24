@@ -1,0 +1,194 @@
+body, html {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(185, 241, 140);
+  color: #333;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  height: 120px;
+  background-color: rgba(17, 24, 16, 0.6);
+  backdrop-filter: blur(15px);
+}
+
+nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.linkek:hover {
+  font-size: 20px;
+  color: rgb(228, 255, 217);
+}
+
+section {
+  padding: 1rem;
+  max-width: 1500px;
+  margin: auto;
+  text-align: center;
+  align-content: center;
+  align-self: center;
+}
+
+input, button, textarea {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+.inputok {
+  margin-left: 500px;
+  width: 500px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.gomb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 28px;
+  margin-top: 45px;
+}
+
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #89ff5a 0, #1cb41c 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  width: 200px;
+  height: 50px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s, transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 22px;
+}
+
+.button-29:focus {
+  box-shadow: #329c18 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #0e8014 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #157e1d 0 -3px 0 inset;
+  transform: translateY(-2px);
+  color: #e0e0e0;
+}
+
+.button-29:active {
+  box-shadow: #409220 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.uzenetes {
+  width: 600px;
+  margin-left: 450px;
+}
+
+.focim {
+  font-size: 45px;
+  margin-bottom: 15px;
+  letter-spacing: 5px;
+}
+
+.cimketto {
+  font-size: 30px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 250px;
+  margin-top: 70px;
+  margin-left: 35px;
+  margin-right: 35px;
+  text-align: center;
+  background-color: white;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: -5px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+table {
+  margin-left: -60px;
+}
+
+.fkeres {
+  font-size: 20px;
+}
+
+.kiscim {
+  font-size: 20.5px;
+}
+
+#autok-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
