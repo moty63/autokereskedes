@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapcsolat</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="kapcsfej">
+    <nav>
+        <a class="jelenleg" href="./kapcsolat.html">Kapcsolat</a><br><br>
+        <a class="linkek" href="./fooldal.html">Fooldal</a>
+        <a class="linkek" href="./elerhetoseg.html">Elerhetoség</a>
+    </nav>
+</header>
+
+<section class="kapcsolatszekson" >
+    <h2 class="kapcsolatcim">↡ Itt uzenhetsz nekunk ↡</h2>
+    <form id="kapcsolatForm">
+        <label class="label">Nev: <input class="uzenetes" type="text" required></label>
+        <label class="label">Email: <input class="uzenetes" type="email" required></label>
+        <label class="label">Uzenet: <textarea class="uzenetes kapcsolatmssg" required></textarea></label>
+        <button class="button-29" type="submit">Kuldés</button>
+    </form>
+</section>
+
+<script>
+    document.getElementById('kapcsolatForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        alert('Koszonjuk az uzenetet! Hamarosan felvesszük Onnel a kapcsolatot ☺.');
+    });
+</script>
+
+</body>
+</html>

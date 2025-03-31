@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Autók vasarlasa kedvezo aron. Szures ar, teljesitmeny vagy motorterfogat alapjan">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Auto Kereskedes</title>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a class="jelenleg" href="./fooldal.html">Fooldal</a><br><br>
+        <a class="linkek" href="./kapcsolat.html">Kapcsolat</a>
+        <a class="linkek" href="./elerhetoseg.html">Elerhetoseg</a>
+    </nav>
+</header>
+
+<section id="szurok">
+    <h2 class="cimketto">Autok Szurese</h2>
+    <label class="label">Ar (Ft): 
+        <input type="number" class="inputok" id="szuresArMin" placeholder="Minimum">
+        <input type="number" class="inputok" id="szuresArMax" placeholder="Maximum"><br>
+    </label>
+    <label class="label">Teljesitmeny (LE): 
+        <input type="number" class="inputok" id="szuresTeljesitmenyMin" placeholder="Minimum">
+        <input type="number" class="inputok" id="szuresTeljesitmenyMax" placeholder="Maximum"><br>
+    </label>
+    <label class="label">Motorterfogat (cm³): 
+        <input type="number" class="inputok" id="szuresMotorMin" placeholder="Minimum">
+        <input type="number" class="inputok" id="szuresMotorMax" placeholder="Maximum"><br>
+    </label class="label">
+    <button class="button-29" onclick="szures()">Szures</button>
+</section>
+
+<section class="lista" id="auto-lista">
+    <h2 class="cimketto">Elerheto autoink:</h2>
+    <div id="autok-container"></div>
+</section>
+<section>
+    <button class="button-29 reset-gomb" onclick="resetOldal()">Reset</button>
+</section>
+
+<script src="../js/autok.js"></script>
+
+</body>
+</html>
